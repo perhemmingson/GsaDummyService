@@ -1,0 +1,1 @@
+﻿#GSA faker to return null values on search and suggestion reguests

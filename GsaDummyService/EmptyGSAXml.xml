@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GSP VER="3.2">
+  <TM>0.111599</TM>
+  <Q></Q>
+  <PARAM name="q" value="" original_value=""/>
+  <PARAM name="site" value="" original_value=""/>
+  <PARAM name="lr" value="" original_value=""/>
+  <PARAM name="ie" value="UTF-8" original_value="UTF-8"/>
+  <PARAM name="oe" value="UTF-8" original_value="UTF-8"/>
+  <PARAM name="output" value="xml_no_dtd" original_value="xml_no_dtd"/>
+  <PARAM name="client" value="" original_value=""/>
+  <PARAM name="access" value="p" original_value="p"/>
+  <PARAM name="sort" value="date:D:L:d1" original_value="date:D:L:d1"/>
+  <PARAM name="sa" value="N" original_value="N"/>
+  <PARAM name="ulang" value="sv" original_value="sv"/>
+  <PARAM name="ip" value="192.168.246.106" original_value="192.168.246.106"/>
+  <PARAM name="entqr" value="3" original_value="3"/>
+  <PARAM name="entqrm" value="0" original_value="0"/>
+  <GM>
+    <GL></GL>
+    <GD></GD>
+  </GM>
+  <Synonyms>    
+  </Synonyms>
+  <Spelling>
+    <Suggestion q="light" qe="light"/>
+  </Spelling>
+  <RES SN="0" EN="0">  
+
+  </RES>
+</GSP>
