@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Mindscape.Raygun4Net.WebApi;
 using Newtonsoft.Json.Serialization;
 using WebApiContrib.Formatting.Jsonp;
 
@@ -14,6 +15,7 @@ namespace GsaDummyService
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(config =>
             {
+                RaygunWebApiClient.Attach(config);
                 config.MapHttpAttributeRoutes();
                 config.Routes.MapHttpRoute(
                     name: "DefaultApi",
@@ -28,7 +30,6 @@ namespace GsaDummyService
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            
         }
     }
 }
